@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nice{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+} 
+.container{
+    background-color: thistle;
+}   
+h1{
+        font-family: cursive;
+        text-align: center;
+}
+p{
+    text-align:center ;
+}
+span{
+    color:aquamarine;
+    font-weight: bold;
+}
+a{
+    font-weight: bolder;
+}
+.rr{
+    text-align: center;
+}
+#footer{
+    background: thistle;
+    text-align: center;
+    color:white;
+}
+@media only screen and (max-width: 987px){
+	.navbar-brand{
+		padding-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+    
+	#banner-row img{
+		padding-top: 20px;
+	}
+}
