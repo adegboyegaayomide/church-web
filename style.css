@@ -1,0 +1,289 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* navbar */
+
+.navbar-nav{
+	margin-right: 0 !important;
+	padding-right: 100px;
+}
+
+.navbar{
+	background:thistle;
+	color: white !important;
+	font-size: 15px;
+}
+
+.cover{
+	font-size: 15px;
+	padding: left 25px;
+}
+.nav-item a{
+	color: white !important;
+	font-size: 14px;
+}
+
+.nav-item{
+	padding-left: 2px;
+}
+.collapsenavbar-collapse ul li a{
+	font-size: 10px;
+}
+
+.navbar-brand{
+	color: white !important;
+	padding-left: 100px;
+}
+
+#navbar button{
+	color: palevioletred !important;
+}
+
+/* banner */
+ @keyframes color {
+    0%   { background-image:url(front.jpg); background-repeat: no-repeat;background-size: cover;}
+    20%  { background-image:url(front1.jpg); background-repeat: no-repeat;background-size: cover;}
+    40%  { background-image:url(front2.jpg); background-repeat: no-repeat;background-size: cover;}
+    100%  { background-image:url(front4.jpg);background-repeat: no-repeat;background-size: cover;}
+   80% { background-image: url(front3.jpg);background-repeat: no-repeat;background-size: cover; }
+   100%  {background-image: url(front4.jpg);background-repeat: no-repeat;background-size: cover;}
+
+ }
+ .holder{
+    background-image: url(front4.jpg);background-repeat: no-repeat;background-size: cover; /* Fallback */
+    animation: color 20s infinite linear;
+    text-align: center;
+	color: white !important;
+	padding-top: 80px;
+	padding-bottom: 80px;
+
+}
+.container8{
+	background-image: url(church5.jpgs);
+}
+
+
+#banner-row h3, p{
+	padding-left: 20px;
+	padding-top: 20px;
+	text-align :center;
+}
+
+#banner-row a{
+	background-color: white !important;
+	color: black !important;
+	border: none;
+	margin-left: 20px;
+	margin-top: 20px;
+	
+}
+#banner-col{
+	padding-left: 20px;
+}
+/* service */
+#service{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#service h1{
+	padding-bottom: 70px;
+}
+
+/* about */
+
+#about{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#about h1{
+	padding-bottom: 70px;
+}
+
+#about-col ul{
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+#about-col ul li{
+	padding-top: 15px;
+	
+}
+.image1{
+	background-image: url(service.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color:white;
+	font-size: 30px;
+}
+.image2{
+	background-image: url(small.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color:white;
+	font-size: 30px;
+	text-align: center;
+}
+
+.image3{
+	background-image: url(GO.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color:white;
+	font-size: 30px;
+	text-align:center;
+}
+
+b{
+	border:3px solid white;
+	border-left: 12px;
+
+
+}
+.MIN1{
+	background-image: url(girl.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color:white;
+	font-size: 30px;
+	text-align:center;
+	
+
+}
+.better{
+
+	font-size: 5px;
+}
+p{
+
+	font-size: 20px;
+}
+.MIN2{
+	background-image: url(nice.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color:white;
+	font-size: 30px;
+	text-align:center;
+
+}
+.MIN3{
+	background-image: url(teen.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color:white;
+	font-size: 30px;
+	text-align:center;
+
+}
+/* product */
+.footer{
+	background: thistle;
+}
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+
+  }
+  
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
+  
+  .fa-google {
+	background: #dd4b39;
+	color: white;
+	font-size: 20px;
+  }
+  
+
+  .fa-youtube {
+	background: #bb0000;
+	color: white;
+  }
+  
+  .fa-instagram {
+	background:black;
+	color: black;
+  }
+  
+  
+  
+  
+  
+#meat{
+	text-align: center;
+	background:thistle;
+	font-family: Georgia, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: white;
+
+}
+#product{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#product h1{
+	padding-bottom: 70px;
+}
+
+#product-col2 ul{
+	padding-top: 90px;
+}
+
+#product-col2 ul li{
+	padding-top: 15px;
+}
+
+/* social */
+#icon{
+	font-size: 20px;
+	
+}
+#social{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#social h1{
+	padding-bottom: 70px;
+}
+
+.social-col a:hover img{
+transform: translateY(-10px);
+}
+
+#social-row{
+	flex-direction: row;
+}
+
+/* footer */
+
+.mb-3{
+padding-top: 10px;
+}
+
+
+/* media */
+@media only screen and (max-width: 987px){
+	.navbar-brand{
+		padding-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+    
+	#banner-row img{
+		padding-top: 20px;
+	}
+
+.social-col{
+	width: 33%;
+}
+
+}
