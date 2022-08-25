@@ -1,0 +1,40 @@
+*{
+padding: 0;
+margin: 0;
+}
+#big{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+}
+.image{
+    text-align: center;
+}
+.container{
+    background: turquoise;
+}
+img{
+    height: 320px;
+    width:300px;
+}
+#footer{
+    background-color:turquoise;
+}
+#footer{
+    text-align: center;
+    color: white;
+}
+@media only screen and (max-width: 987px){
+	.navbar-brand{
+		padding-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+    
+	#banner-row img{
+		padding-top: 20px;
+	}
+}
